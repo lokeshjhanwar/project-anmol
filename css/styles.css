@@ -1,0 +1,155 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+#title {
+  background-color: #ff4c68;
+  color: white;
+
+}
+/* images */
+.title-image{
+  width: 80%;
+  right: 40%;
+}
+
+
+.container-fluid{
+  padding: 3% 10% 3% 10%;
+}
+
+/* button */
+
+.order {
+  margin: 5% 3% 5% 0;
+  font-size: 1rem;
+}
+
+/* navigation bar */
+.navbar {
+  padding :0 0 3.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+
+}
+
+
+h1 {
+  /* font-family: "Montserrat-black"; */
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: 'Montserrat-bold';
+  font-size: 2rem;
+  line-height: 1.5;
+}
+/* features section */
+#features{
+  /* margin:80px 20px; */
+  padding: 7% 15%;
+  background-color: #fff;
+  position:relative;
+  z-index: 1;
+
+}
+
+.features-heading{
+  font-weight: bold;
+}
+
+.icon
+{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color:#ff4c68;
+}
+
+
+
+/* testimonial section */
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.supply-img {
+  position: absolute;
+  height: auto;
+  width: 100%;
+  z-index: -1;
+}
+.testimonial-image {
+  width: 8%;
+  border-radius: 100%;
+  margin: 2%;
+}
+.carousel-inner{
+    padding:7% 15%;
+}
+
+/* Princing */
+#pricing{
+  text-align: center;
+  padding: 7% 15%;
+}
+.pricing-heading{
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+.pricing-col
+{
+  padding: 2% 3%;
+}
+.card-header{
+  background-color: #ff4c68;
+}
+
+/* footer section */
+#cta{
+  background-color:#ff4c68;
+  text-align: center;
+  padding: 7% 15% 3%;
+
+  color: #fff;
+}
+#footer{
+  margin:2%;
+}
+.footer-heading {
+  font-family: 'Montserrat-bold';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.fa{
+  padding: 1%;
+  color: #000;
+}
+
+
+
+
+@media (max-width:1028px) {
+  .title-image{
+    position:static;
+  }
+  #title{
+    text-align: center;
+  }
+
+}
